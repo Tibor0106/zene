@@ -73,7 +73,7 @@ namespace zenesszar
                 int secs = int.Parse(_min.Split(':')[1]);
 
 
-                return (min / 60 ) + secs;
+                return (min * 60 ) + secs;
             }
         }
     }
